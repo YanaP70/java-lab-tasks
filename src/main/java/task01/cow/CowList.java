@@ -270,7 +270,7 @@ public class CowList<E> extends AbstractList<E> {
     @Override
     public Iterator<E> iterator() {
         return new Iterator<>() {
-            private final Object[] snapshot = Arrays.copyOf(array, size());
+            private final Object[] snapshot = array;
             private int position = 0;
 
             @Override
