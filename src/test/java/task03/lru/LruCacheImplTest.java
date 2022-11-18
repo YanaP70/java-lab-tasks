@@ -4,8 +4,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class LruCacheTest {
-    private final LruCache<Integer, String> lruCache = new LruCache<>();
+public class LruCacheImplTest {
+    private final LruCacheImpl<Integer, String> lruCache = new LruCacheImpl<>();
 
     @Before
     public void setUp() {
