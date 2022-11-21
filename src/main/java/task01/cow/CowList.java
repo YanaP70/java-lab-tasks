@@ -52,7 +52,7 @@ public class CowList extends AbstractList<Model> {
     }
 
     private boolean isSame(Object o, Model obj) {
-        return Objects.isNull(obj) && Objects.isNull(o) || obj.equals(o);
+        return Objects.equals(o, obj);
     }
 
     @Override
