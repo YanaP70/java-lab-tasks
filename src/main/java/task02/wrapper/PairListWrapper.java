@@ -104,7 +104,7 @@ public class PairListWrapper extends AbstractList<SimpleModel> {
     }
 
     private boolean isSame(Object o, SimpleModel obj) {
-        Objects.equals(o, obj);
+        return Objects.equals(o, obj);
     }
 
      @Override
